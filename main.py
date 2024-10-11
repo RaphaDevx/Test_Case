@@ -7,7 +7,7 @@ from Herz import Herz
 import matplotlib.pyplot as plt
 import numpy as np
 from pandas import DataFrame
-from scikit-learn.feature_selection import RFE
+from sklearn.feature_selection import RFE
 import webbrowser
 import seaborn as sns
 from streamlit.components.v1 import html
