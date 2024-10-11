@@ -1,13 +1,13 @@
 import pandas as pd
 import streamlit as st
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LogisticRegression
+from scikit-learn.model_selection import train_test_split
+from scikit-learn.linear_model import LogisticRegression
 import pickle
 from Herz import Herz
 import matplotlib.pyplot as plt
 import numpy as np
 from pandas import DataFrame
-from sklearn.feature_selection import RFE
+from scikit-learn.feature_selection import RFE
 import webbrowser
 import seaborn as sns
 from streamlit.components.v1 import html
